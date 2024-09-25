@@ -1,0 +1,170 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#DEDEDE ;
+}
+.box{
+    width: 1000px;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid #037BFF;
+    box-shadow: 0px 0px 10px 0px rgba(123, 62, 222, 0.5);
+    position: relative;
+}
+#q{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    margin: 30px;
+    padding-bottom: 30px;
+}
+li{
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    color:red;
+}
+#next{
+    display: block;
+    width: 100%;
+    left: 0px;
+    bottom: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #037BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0px 0px 30px 30px;
+    cursor: pointer;
+    position: absolute;
+}
+/* Mobail */
+@media screen and (max-width: 430px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:#DEDEDE ;
+    } 
+    .box{
+        width: 350px;
+        padding: 20px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        border: 1px solid #037BFF;
+        box-shadow: 0px 0px 10px 0px rgba(123, 62, 222, 0.5);
+        position: relative;
+    }
+    #q{
+        text-align: center;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    li{
+        margin-bottom: 15px;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #next{
+        display: block;
+        width: 100%;
+        left: 0px;
+        bottom: 0;
+        padding: 20px 50px;
+        font-size: 20px;
+        font-weight: bold;
+        background: #037BFF;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 0px 0px 30px 30px;
+        cursor: pointer;
+        position: absolute;
+    }
+}
+/* Ipad */
+@media screen and (max-width: 1024px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:#DEDEDE ;
+    } 
+    .box{
+        width: 700px;
+        padding: 20px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        border: 1px solid #037BFF;
+        box-shadow: 0px 0px 10px 0px rgba(123, 62, 222, 0.5);
+        position: relative;
+    }
+    #q{
+        text-align: center;
+        padding: 10px 20px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    #next{
+        display: block;
+        width: 100%;
+        left: 0px;
+        bottom: 0;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        background: #037BFF;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 0px 0px 30px 30px;
+        cursor: pointer;
+        position: absolute;
+    }
+}
+/* Watch */
+@media screen and (max-width: 162px ) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:#DEDEDE ;
+    } 
+    .box{
+        width: 100px;
+        min-height: 197px;
+        padding: 20px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        border: 1px solid #037BFF;
+        box-shadow: 0px 0px 10px 0px rgba(123, 62, 222, 0.5);
+        position: relative;
+    }
+    #q{
+        text-align: center;
+        padding: 10px 20px;
+        font-size: 6px;
+    }
+    li{
+        margin-bottom: 1px;
+        padding: 5px;
+        font-size: 2px;
+    }
+}
